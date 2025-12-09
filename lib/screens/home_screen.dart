@@ -5,8 +5,31 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Text("hello from home screen"),
+    return Scaffold(
+      body: ListView(
+        children: [
+          Container(
+            color: Colors.blue,
+            padding: EdgeInsets.symmetric(horizontal: 20),
+            child: Column(
+              children: [
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Column(
+                      children: [Text("Good Morning"), Text("Book Tickets")],
+                    ),
+                    Container(color: Colors.red, height: 100, width: 80),
+                  ],
+                ),
+                Row(children: [
+                    
+                  ],),
+              ],
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
