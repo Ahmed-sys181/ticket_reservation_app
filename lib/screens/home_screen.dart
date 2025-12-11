@@ -2,6 +2,7 @@ import 'package:fluentui_icons/fluentui_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:my_app/base/res/styles/app_styles.dart';
 import 'package:my_app/base/res/widgets/double_text.dart';
+import 'package:my_app/base/res/widgets/ticket_view.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -59,6 +60,7 @@ class HomeScreen extends StatelessWidget {
                 ),
                 SizedBox(height: 40),
                 DoubleText(headText: "Upcoming Flight", viewAll: "view all"),
+                TicketView(),
                 SizedBox(height: 40),
                 DoubleText(headText: "Upcoming Meetings", viewAll: "view all"),
               ],

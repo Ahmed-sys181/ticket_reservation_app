@@ -8,6 +8,8 @@ class AppStyles {
   static Color primaryColor = primary;
   static Color bg = bgColor;
   static Color textColor = text;
+  //ticket
+  static Color ticketBlue = const Color(0xFF526799);
   // font size and font weight
   static TextStyle textStyle = TextStyle(
     fontSize: 16,
